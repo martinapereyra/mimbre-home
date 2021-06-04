@@ -1,0 +1,407 @@
+/*
+---------------------------------------------
+Índice
+------------------------------------------------
+1. Typography
+2. Main Nav
+3. Home
+4. About
+5. Work
+6. Single Work
+7. Pricing
+8. Contact
+--------------------------------------------- */
+
+*{
+  font-family: 'Montserrat', sans-serif  !important;
+
+}
+
+/* Typography */
+p, a {font-weight: 400;}
+.h2 {font-size: 40px;}
+.h3 {font-size: 28px;}
+.light-300 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 300;
+}
+.regular-400 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+}
+.semi-bold-600 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 600;
+}
+.typo-space-line::after,
+.typo-space-line-center::after {
+  content: "";
+  width: 150px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid; 
+  padding-top: .5em;
+}
+.typo-space-line-center::after {
+  left: 50%;
+  margin-left: -75px;
+}
+/*background banner */
+.bg-bannerPrincipal{
+  background :url(../img/banner-principal.jpg) !important; 
+  background-position: center center !important; 
+  background-size: cover !important;
+  
+}
+.bg-bannerSale{
+  background: url(../img/banner-sale.jpg)!important;
+  background-position : center center !important; 
+  background-size: cover !important;
+
+
+}
+#banner-contact{
+  background :url(../img/banner-contact.jpg) !important; 
+  background-position : center center !important; 
+  background-size: cover !important;
+}
+#banner-about{
+  background :url(../img/22.jpg)!important;
+  background-position : center center !important; 
+  background-size: cover !important;
+}
+#banner-work{
+  background :url(../img/banner-work.jpg) !important; 
+  background-position: center center !important; 
+  background-size:cover !important; 
+}
+
+/* cambios color, primary*/
+.text-primary{
+  color: #422114 !important;
+}
+
+/* line 65, src/assets/scss/_buttons.scss */
+.btn-outline-primary {
+  color: #29160f !important;
+  border:none!important;
+}
+
+/* line 85, src/assets/scss/mixins/_buttons.scss */
+.btn-outline-primary:hover {
+  color:#29160f;
+  background-color: #f8e6d1 !important;
+  border-color: #C5E8E4!important;
+}
+.btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.1rem #29160f52 !important;
+          box-shadow: 0 0 0 0.1rem #29160f52 !important;
+}
+
+/* line 96, src/assets/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-outline-primary,
+.btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
+  color: #f6f9fe;
+  background-color: none !important;
+  border-color: none !important;
+}
+
+/* line 105, src/assets/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-outline-primary:focus,
+.btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem none !important;
+          box-shadow: 0 0 0 0.25rem none !important;
+}
+
+/* line 115, src/assets/scss/mixins/_buttons.scss */
+.btn-outline-primary:disabled, .btn-outline-primary.disabled {
+  color: #29160f!important;
+  background-color: transparent;
+}
+
+
+
+/* line 59, src/assets/scss/_buttons.scss */
+.btn-primary {
+  color: #d25525;
+  background-color:#fff8f060!important;
+  border-color: #d25525!important;
+}
+
+/* line 25, src/assets/scss/mixins/_buttons.scss */
+.btn-primary:hover {
+  color: #FFF8F0;
+  background-color: #d25525 !important;
+  border-color: #d25525!important;
+}
+
+/* line 31, src/assets/scss/mixins/_buttons.scss */
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: #f6f9fe;
+  background-color:  #d25525 !important;
+  border-color:  #d25525 !important;
+  -webkit-box-shadow: 0 0 0 0.25rem none !important;
+          box-shadow: 0 0 0 0rem #f5ccbc  !important;
+}
+
+
+/* line 44, src/assets/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-primary,
+.btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  color: #f6f9fe;
+  background-color: #d25525 !important;
+  border-color: #d25525 !important;
+}
+
+/* line 55, src/assets/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-primary:focus,
+.btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem none  !important;
+          box-shadow: 0 0 0 0.25rem none!important;
+}
+
+/* line 65, src/assets/scss/mixins/_buttons.scss */
+.btn-primary:disabled, .btn-primary.disabled {
+  color: #d25525 !important;
+  background-color: none !important;
+  border-color:none !important; 
+}
+.bg-primary {
+  background-color: #efebe0!important;
+  background-image:url("../img/fondo-primary.jpg");
+  background-size: cover;
+}
+/*cambios SECONDARY*/
+.bg-secondary {
+  background-image: url(../img/fondo-primary.jpg) !important;
+  background-position: center center !important; 
+  background-size: cover !important;
+}
+
+.text-secondary {
+  color: #45386B!important;
+
+}
+
+/* line 59, src/assets/scss/_buttons.scss */
+.btn-secondary {
+  color: #d25525 !important;
+  background-color:#e6916f2c!important;
+  font-weight: bold!important;
+  border-color: #d25525 !important ;
+}
+
+
+/* line 25, src/assets/scss/mixins/_buttons.scss */
+.btn-secondary:hover {
+  color: #FFF8F0 !important;
+  background-color:#d25525!important;
+  border-color: #d25525 !important;
+}
+
+/* line 31, src/assets/scss/mixins/_buttons.scss */
+.btn-check:focus + .btn-secondary, .btn-secondary:focus {
+  color: #FFF8F0 !important;
+  background-color:#d25525 !important;
+  border-color: #d25525 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+/* line 44, src/assets/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-secondary,
+.btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active,
+.show > .btn-secondary.dropdown-toggle {
+  color: none  !important;
+
+}
+
+/* line 55, src/assets/scss/mixins/_buttons.scss */
+.btn-check:checked + .btn-secondary:focus,
+.btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
+  -webkit-box-shadow:  none !important;
+          box-shadow: none !important;
+}
+
+/* line 65, src/assets/scss/mixins/_buttons.scss */
+.btn-secondary:disabled, .btn-secondary.disabled {
+  color: #d25525 !important;;
+  background-color:#FFF8F0!important;
+  border-color: #d25525 !important;;;
+}
+
+
+
+/* Main Nav */
+#main_nav .nav-item .nav-link:hover {color: #fff;}
+/* Home */
+
+/*#index_banner {
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 100% !important;
+  min-height: 60vh !important; 
+  width: 100% !important;
+}*/
+
+#index_banner .carousel-item {
+  min-height: 60vh;
+}
+#index_banner .carousel-control-prev i,
+#index_banner .carousel-control-next i {
+  color: #FF8811 !important;
+  text-decoration: none;
+  font-size: 4em;
+}
+#index_banner .carousel-inner {
+  height: 80vh;
+}
+#index_banner .carousel-indicators li,
+#index_banner .carousel-indicators.active {
+  background-color: #FF8811 !important;
+  
+}
+.service-wrapper .service-footer {
+  max-width: 720px;
+}
+.service-work.card {
+  border-radius: 10px !important;
+  cursor: pointer;
+}
+.service-work .service-work-vertical {
+	background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(255,255,255,1) 66.66%, rgba(255,255,255,0) 99.99%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .5s;
+}
+.service-work .service-work-vertical:hover {
+  background-position: 0% 0%;
+  transition: .5s;
+}
+.service-work .service-work-vertical:hover * {
+  color: #000;
+  border-color: #000;
+  transition: .5s;
+}
+.recent-work.card{
+  border-radius: 10px !important;
+}
+.recent-work .recent-work-vertical {
+	background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, #B7E1DC 66.666%, rgba(255, 255, 255, 0) 99.999%);
+  background-size: 300% 300%;
+  background-position: 0% 100%;
+  transition: .5s;
+  cursor: pointer;
+}
+.recent-work .recent-work-vertical:hover {
+  background-position: 0% 0%;
+  transition: .5s;
+}
+.recent-work .recent-work-vertical:hover div.recent-work-content {
+  top: 50%;
+  margin-top: -2.5em;
+  position: absolute;
+}
+.recent-work .recent-work-vertical:hover * {
+  color: white;
+  transition: .5s;
+}
+/* About */
+#work_banner {
+  background-image: url('../img/banner-work.jpg');
+  background-position: center center; background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.progress {
+  height: 8px;
+}
+.objective-icon {
+  border-radius: 13px;
+  width: 8rem;
+}
+.partner-wap {
+  background-color: #deb13a;
+  transition: 1s;
+  cursor: pointer;
+}
+.partner-wap:hover {
+  background-color: #b1b3f5;
+}
+.why-us {
+  background: rgb(239,239,253);
+  background: -moz-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  background: -webkit-linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  background: linear-gradient(0deg, rgba(239,239,253,1) 50%, rgba(255,255,255,1) 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efeffd",endColorstr="#ffffff",GradientType=1);
+}
+.team-member-img {
+  transition-duration: 0.15s;
+ 
+}
+.team-member:hover .team-member-img {
+  padding: 10px !important;
+}
+
+/* Work */
+/* Singel Work */
+#work_single_banner {
+  background-image: url('./../img/banner-bg-02.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.related-content {
+  border-radius: 20px;
+  cursor: pointer;
+}
+/* Pricing */
+.pricing-list {
+  margin-bottom: 1px;
+}
+.pricing-table {
+  max-width: 350px;
+  margin: auto;
+}
+.pricing-table,
+.pricing-horizontal {
+  border-radius: 15px !important;
+}
+/* Contact */
+#floatingtextarea {
+  height: 150px
+}
+/* Footer */
+footer a.text-light:hover {
+  color: #bfbfbf !important;
+  transition-duration: 0.15s;
+}
+
+
+
+.figure {
+  position: relative;
+  width: 360px; /* can be omitted for a regular non-lazy image */
+  max-width: 100%;
+}
+.figure img.image-hover {
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+object-fit: contain;
+opacity: 0;
+transition: opacity .2s;
+}
+.figure:hover img.image-hover {
+opacity: 1;
+}
+

@@ -1,9 +1,6 @@
 # mimbre-home
 Trabajo práctico N1 - Curso Codo a Codo 4.0
 
-### Paleta de Colores:
-<img src="https://i.ibb.co/x794Q38/Tarjeta-de-Visita-Negro-y-Amarillo-Dise-ador-Web.png" alt="Paleta de colores" />
-
 ### Estilo:
 <img src="https://i.ibb.co/875FwZj/7.png" alt="Imagen Pag Web-Home" />
 
@@ -29,5 +26,5 @@ Trabajo práctico N1 - Curso Codo a Codo 4.0
 
 ### Version Mobile:
 
-<img src="https://i.ibb.co/XJqQZ6c/8.png alt="Imagen Pag Web-Home" />
+<img src="https://i.ibb.co/XJqQZ6c/8.png " alt="Imagen Pag Web-Home" />
 
